@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="../main.css">
+    <title>Estetica Vanesa</title>
+    <link rel="shortcut icon" href="../assets/vane-logo.ico" />
+
+  </head>
+
+  <body>
+    <!-- HEADER-->
+    <div class="header-container">
+        <div class="header">
+          <div class="logo">
+            <a href="index.html">
+              <img src="../assets/vane-logo.png" height="100" width="150">
+            </a>
+            <a href="https://www.facebook.com/esteticaintegralvanesa" target="_blank"><img class="main-social" src="../assets/facebook.png" width="30" height="30"></a>
+          </div>
+          <div class="menu">
+              <ul>
+              <li><a href="../index.html">Inicio</a></li>
+              <li><a href="#">Tratamientos</a></li>
+              <li>
+                <a href="#">Productos &#9662;</a>
+                <ul class="dropdown">
+                  <li><a href="#">Cremas</a></li>
+                  <li><a href="#">Velas</a></li>
+                  <li><a href="#">Maquinas</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Contacto</a></li>
+            <!--  <li><a href="#">Home</a></li>  -->
+            </ul>
+          </div>
+        </div>
+    </div>
+    <!-- END HEADER-->
+      
+    <!-- BODY-->
+    <div class="container">
+      <!-- roulette-->
+      <div class="roulette">
+        <div class="slide active-slide">
+          <img src="../assets/drenaje1.jpeg" width="994" height="300">
+        </div>
+        <div class="slide">
+          <img src="../assets/rusas1.jpg" width="994" height="300">
+        </div>
+        <div class="slide">
+          <img src="../assets/reductores1.jpg" width="994" height="300">
+        </div>
+        <div class="slide">
+          <img src="../assets/presoterapia2.jpg" width="994" height="300">
+        </div>
+      </div>
+
+      <div class="slider-nav">
+        <a class="arrow-prev" data-target="slider-nav"><img src="../assets/Arrows-Back-icon.png" width="20" height="20"></a>
+        <ul class="slider-dots">
+          <li class="dot active-dot">&bull;</li>
+          <li class="dot">&bull;</li>
+          <li class="dot">&bull;</li>
+          <li class="dot">&bull;</li>
+        </ul>
+        <a class="arrow-next" data-target="slider-nav"><img src="../assets/Arrows-Forward-icon.png" width="20" height="20"></a>
+      </div> 
+      <!-- END roulette-->
+
+      <div class="main-row" id="tratamientos">
+
+        <div class="row"> <!-- Row -->
+          <div class="col-md-4" id="info-1">
+            <h1>Presoterapia</h1>
+            <div class="thumbnail">
+              <img src="../assets/presoterapia-botas.jpg" >
+            </div>
+            <div class="btn" id="btn-1">
+              <a data-target="btn">Learn More</a>
+            </div>
+            <div class="deactive-info" >
+              <h2 >Pasión por resultados extraordinarios</h2>
+              <p>La presoterapia es un sistema de compresión controlada que funciona con bombas de inflar. El dispositivo cuenta con cinco cámaras separadas que se colocan alrededor de los miembros. Éstos se centran en mover el flujo venoso y linfático, a partir de los tobillos y al pasar a los muslos.</p>
+              <p>Diseñada para aumentar la circulación sanguínea y el flujo linfático, la presoterapia mejora el aclaramiento del líquido extracelular, reduce la hinchazón, inflamación y los edemas, alivia la fatiga de las piernas y mejora el flujo de oxígeno a través de todo el cuerpo.</p>
+              <div class="btn" id="btn-close-1">
+                <a data-target="btn">Close</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" id="info-2">
+            <h1>Drenaje linfatico</h1>
+            <div class="thumbnail">
+              <img src="../assets/drenajelinfaticomanual.jpg" >
+            </div>
+            <div class="btn"  id="btn-2">
+              <a data-target="btn">Learn More</a>
+            </div>
+            <div class="deactive-info">
+              <h2>Nuestros clientes hablan sobre nosotros</h2>
+              <p>La gran mayoría de nuestros clientes nos han contratado en repetidas ocasiones.  Para nosotros es la mejor demostración del valor que les agregamos con nuestros proyectos.</p>
+              <div class="btn" id="btn-close-2">
+                <a data-target="btn">Close</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" id="info-3">
+            <h1>Drenaje linfatico</h1>
+            <div class="thumbnail">
+              <img src="../assets/drenajelinfaticomanual.jpg" >
+            </div>
+            <div class="btn"  id="btn-3">
+              <a data-target="btn">Learn More</a>
+            </div>
+            <div class="deactive-info">
+              <h2>Nuestros clientes hablan sobre nosotros</h2>
+              <p>La gran mayoría de nuestros clientes nos han contratado en repetidas ocasiones.  Para nosotros es la mejor demostración del valor que les agregamos con nuestros proyectos.</p>
+              <div class="btn" id="btn-close-3">
+                <a data-target="btn">Close</a>
+              </div>
+            </div>
+          </div>
+        </div> <!-- END row-->
+        <div class="LineSeparator">
+          <img src="../assets/LineSeparator.png" width="1000">
+        </div>
+
+        <div class="row"> <!-- Row 2 -->
+          <div class="col-md-4" id="info-4">
+            <h1>Presoterapia</h1>
+            <div class="thumbnail">
+              <img src="../assets/presoterapia-botas.jpg" >
+            </div>
+            <div class="btn" id="btn-4">
+              <a data-target="btn">Learn More</a>
+            </div>
+            <div class="deactive-info" >
+              <h2 >Pasión por resultados extraordinarios</h2>
+              <p>La presoterapia es un sistema de compresión controlada que funciona con bombas de inflar. El dispositivo cuenta con cinco cámaras separadas que se colocan alrededor de los miembros. Éstos se centran en mover el flujo venoso y linfático, a partir de los tobillos y al pasar a los muslos.</p>
+              <p>Diseñada para aumentar la circulación sanguínea y el flujo linfático, la presoterapia mejora el aclaramiento del líquido extracelular, reduce la hinchazón, inflamación y los edemas, alivia la fatiga de las piernas y mejora el flujo de oxígeno a través de todo el cuerpo.</p>
+              <div class="btn" id="btn-close-4">
+                <a data-target="btn">Close</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" id="info-5">
+            <h1>Drenaje linfatico</h1>
+            <div class="thumbnail">
+              <img src="../assets/drenajelinfaticomanual.jpg" >
+            </div>
+            <div class="btn"  id="btn-5">
+              <a data-target="btn">Learn More</a>
+            </div>
+            <div class="deactive-info">
+              <h2>Nuestros clientes hablan sobre nosotros</h2>
+              <p>La gran mayoría de nuestros clientes nos han contratado en repetidas ocasiones.  Para nosotros es la mejor demostración del valor que les agregamos con nuestros proyectos.</p>
+              <div class="btn" id="btn-close-5">
+                <a data-target="btn">Close</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" id="info-6">
+            <h1>Drenaje linfatico</h1>
+            <div class="thumbnail">
+              <img src="../assets/drenajelinfaticomanual.jpg" >
+            </div>
+            <div class="btn"  id="btn-6">
+              <a data-target="btn">Learn More</a>
+            </div>
+            <div class="deactive-info">
+              <h2>Nuestros clientes hablan sobre nosotros</h2>
+              <p>La gran mayoría de nuestros clientes nos han contratado en repetidas ocasiones.  Para nosotros es la mejor demostración del valor que les agregamos con nuestros proyectos.</p>
+              <div class="btn" id="btn-close-6">
+                <a data-target="btn">Close</a>
+              </div>
+            </div>
+          </div>
+        </div> <!-- END row 2-->
+      </div> <!-- END Main-row-->
+      
+    <div class="footer-container">
+      <div class="footer">
+      </div>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+
+    </div> <!-- END container -->
+
+  </body>
+</html>
