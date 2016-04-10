@@ -3,6 +3,11 @@ body {
   background-size: cover;
 }
 
+@font-face {
+  font-family: "Romantica";
+  src: url("LaBelleAurore.ttf");
+  }
+
    /* ----- HEADER ----- */
 .header-container {
     width: 1000px;
@@ -25,6 +30,10 @@ body {
 
 .header-container .logo {
     margin: 20px 0;
+}
+
+.header-container .logo img{
+    border-radius: 70px;
 }
 
 .header-container .menu {
@@ -197,11 +206,14 @@ div#index.main-row {
 #index h2 {
     text-align: center;
     color:#B41A89;
+    font-family: "Romantica";
+    font-size: 42px;
 }
 
 #index p {
     text-align: center;
-    font-family: "Courier";
+    font-family: "Romantica";
+    font-size: 21px;
 }
 
 div.btn {

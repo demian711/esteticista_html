@@ -85,6 +85,37 @@ var main = function() {
 
 // End Button 3
 
+// Button 4
+
+  $('#btn-4').click(function() { 
+      $("#info-5").fadeOut( 500 );
+   /*   $("#info-4").fadeOut( 500 );
+      $("#info-5").fadeOut( 500 );
+      $("#info-6").fadeOut( 500 );
+      $(".LineSeparator5").fadeOut( 500 ); */
+      $("#info-6").fadeOut( 500, function() {
+        $("#info-4").animate({marginLeft: "600px",}, 800 , function() {
+          $("#btn-4").fadeOut( 500,function() {
+            $('.main-row #info-4 .deactive-info').fadeIn(900);
+            console.log( $(".paco") );
+          });
+        });
+      });
+   });
+
+  $('#btn-close-4').click(function () {
+    $('.main-row #info-4 .deactive-info').fadeOut(900,function() {
+      $("#btn-4").fadeIn( 500 );
+      $("#info-4").animate({marginLeft: "0px",}, 800,function() {
+        $("#info-5").fadeIn( 500 );
+        $("#info-6").fadeIn( 500 );
+        
+      });
+    });
+  });
+
+// End Button 4
+
 //Carousel
 
   $('.arrow-next').click(function() {
