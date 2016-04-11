@@ -203,6 +203,17 @@ div#index.main-row {
     border-radius: 10px;
 }
 
+.main-row .rounded-image {
+    border-radius: 100%;
+    background:url(assets/perfil_vane.jpg) no-repeat center center;
+    background-size: 350px 475px;
+    background-position: 100% 0%;
+    height:350px;
+    width:350px;
+    margin: auto;
+    margin-top: 50px;
+}
+
 #index h2 {
     text-align: center;
     color:#B41A89;
