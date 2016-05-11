@@ -3,13 +3,13 @@ var main = function() {
 // Button 1
 
   $('#btn-1').click(function() { 
-      $("#info-2").fadeOut( 500 );
-   /*   $("#info-4").fadeOut( 500 );
-      $("#info-5").fadeOut( 500 );
-      $("#info-6").fadeOut( 500 );
-      $(".LineSeparator2").fadeOut( 500 ); */
-      $("#info-3").fadeOut( 500, function() {
-        $("#info-1").animate({marginLeft: "300px",}, 800 , function() {
+      // $("#info-2").fadeOut( 500 );
+      // $("#info-4").fadeOut( 500 );
+      // $("#info-5").fadeOut( 500 );
+      // $("#info-6").fadeOut( 500 );
+      $(".LineSeparator2").fadeOut( 500 ); 
+      $("#info-2").fadeOut( 500, function() {
+        $("#info-1").animate({marginLeft: "25%",}, 800 , function() {
           $("#btn-1").fadeOut( 200,function() {
             $('.main-row #info-1 .deactive-info').fadeIn(900);
             console.log( $(".paco") );
@@ -21,9 +21,9 @@ var main = function() {
   $('#btn-close-1').click(function () {
     $('.main-row #info-1 .deactive-info').fadeOut(900,function() {
       $("#btn-1").fadeIn( 500 );
-      $("#info-1").animate({marginLeft: "0px",}, 800,function() {
+      $("#info-1").animate({marginLeft: "0%",}, 800,function() {
         $("#info-2").fadeIn( 500 );
-        $("#info-3").fadeIn( 500 );
+        // $("#info-3").fadeIn( 500 );
         
       });
     });
@@ -34,9 +34,9 @@ var main = function() {
 // Button 2
 
   $('#btn-2').click(function() { 
-      $("#info-1").fadeOut( 500 );
-      $("#info-3").fadeOut( 500, function() {
-        $("#info-2").animate({marginLeft: "33.33333333%",}, 0 , function() {
+      // $("#info-1").fadeOut( 500 );
+      $("#info-1").fadeOut( 500, function() {
+        $("#info-2").animate({marginRight: "25%",}, 800 , function() {
           $("#btn-2").fadeOut( 200,function() {
             $('.main-row #info-2 .deactive-info').fadeIn(900);
             console.log( $(".paco") );
@@ -48,9 +48,9 @@ var main = function() {
   $('#btn-close-2').click(function () {
     $('.main-row #info-2 .deactive-info').fadeOut(900,function() {
       $("#btn-2").fadeIn( 500 );
-      $("#info-2").animate({marginLeft: "0%",}, 0,function() {
+      $("#info-2").animate({marginRight: "0%",}, 800,function() {
         $("#info-1").fadeIn( 500 );
-        $("#info-3").fadeIn( 500 );
+        // $("#info-3").fadeIn( 500 );
         
       });
     });
@@ -61,9 +61,13 @@ var main = function() {
 // Button 3
 
   $('#btn-3').click(function() { 
-      $("#info-1").fadeOut( 500 );
-      $("#info-2").fadeOut( 500, function() {
-        $("#info-3").animate({marginRight: "33.33333333%",}, 800 , function() {
+      // $("#info-5").fadeOut( 500 );
+      // $("#info-3").fadeOut( 500 );
+      // $("#info-5").fadeOut( 500 );
+      // $("#info-6").fadeOut( 500 );
+      // $(".LineSeparator2").fadeOut( 500 ); 
+      $("#info-4").fadeOut( 500, function() {
+        $("#info-3").animate({marginLeft: "25%",}, 800 , function() {
           $("#btn-3").fadeOut( 200,function() {
             $('.main-row #info-3 .deactive-info').fadeIn(900);
             console.log( $(".paco") );
@@ -75,9 +79,9 @@ var main = function() {
   $('#btn-close-3').click(function () {
     $('.main-row #info-3 .deactive-info').fadeOut(900,function() {
       $("#btn-3").fadeIn( 500 );
-      $("#info-3").animate({marginRight: "0px",}, 800,function() {
-        $("#info-1").fadeIn( 500 );
-        $("#info-2").fadeIn( 500 );
+      $("#info-3").animate({marginLeft: "0%",}, 800,function() {
+        $("#info-4").fadeIn( 500 );
+        // $("#info-6").fadeIn( 500 );
         
       });
     });
@@ -85,16 +89,16 @@ var main = function() {
 
 // End Button 3
 
-// Button 1
+// Button 4
 
   $('#btn-4').click(function() { 
-      $("#info-5").fadeOut( 500 );
-   /*   $("#info-4").fadeOut( 500 );
-      $("#info-5").fadeOut( 500 );
-      $("#info-6").fadeOut( 500 );
-      $(".LineSeparator2").fadeOut( 500 ); */
-      $("#info-6").fadeOut( 500, function() {
-        $("#info-4").animate({marginLeft: "300px",}, 800 , function() {
+      // $("#info-5").fadeOut( 500 );
+      // $("#info-3").fadeOut( 500 );
+      // $("#info-5").fadeOut( 500 );
+      // $("#info-6").fadeOut( 500 );
+      // $(".LineSeparator2").fadeOut( 500 ); 
+      $("#info-3").fadeOut( 500, function() {
+        $("#info-4").animate({marginRight: "25%",}, 800 , function() {
           $("#btn-4").fadeOut( 200,function() {
             $('.main-row #info-4 .deactive-info').fadeIn(900);
             console.log( $(".paco") );
@@ -106,15 +110,15 @@ var main = function() {
   $('#btn-close-4').click(function () {
     $('.main-row #info-4 .deactive-info').fadeOut(900,function() {
       $("#btn-4").fadeIn( 500 );
-      $("#info-4").animate({marginLeft: "0px",}, 800,function() {
-        $("#info-5").fadeIn( 500 );
-        $("#info-6").fadeIn( 500 );
+      $("#info-4").animate({marginRight: "0%",}, 800,function() {
+        $("#info-3").fadeIn( 500 );
+        // $("#info-6").fadeIn( 500 );
         
       });
     });
   });
 
-// End Button 1
+// End Button 4
 
 
 //Carousel

@@ -1,11 +1,17 @@
 body {
   background-image: url(assets/background.jpg) ;
-  background-size: cover;
+  background-size: 100%;
+  background-color: #F0E3F4;
 }
 
 @font-face {
   font-family: "Romantica";
-  src: url("LaBelleAurore.ttf");
+  src: url("labelleaurore.ttf");
+  }
+
+@font-face {
+  font-family: "Olive";
+  src: url("antiqueolive.ttf");
   }
 
    /* ----- HEADER ----- */
@@ -151,6 +157,10 @@ a:hover {
     margin-left: auto;
     margin-top: 50px;
 }
+
+.footer img {
+    margin-bottom: 5px;
+}
 /* ----- END FOOTER ----- */
 
 .container {
@@ -174,7 +184,7 @@ a:hover {
 .deactive-info {
     display: none;
     width: 1000px;
-    margin-left: -104%;
+    margin-left: -50%;
 }
 
 .roulette .main-img img {
@@ -185,11 +195,20 @@ div#tratamientos.main-row {
     width: 1000px;
     margin-right: auto;
     margin-left: auto;
-    padding: 30px 0 30px 0;
+    padding: 0px 0 30px 0;
 #   margin-bottom: 70px;
     /*border: solid;*/
 #   background-image: url(assets/background.jpg);
     border-radius: 10px;
+}
+
+.treatment {
+    padding-left: 25%;
+    padding-bottom: 20px;
+}
+
+.treatment img {
+    border-radius: 25%;
 }
 
 div#index.main-row {
@@ -244,37 +263,47 @@ div.btn:hover {
 
 .row {
     width: 1000px;
-    margin: 100px 0;
+    margin: 50px 0;
     padding: 30px 0 0 0;
     /*border: solid;*/
  #   background-color: #efe8f3;
     border-radius: 10px;
 }
 
-.row .col-md-4 h1 {
+.row .col-md-6 h1 {
     text-align: center;
-    font-family: "Courier";
+    font-family: "Olive";
     font-size: 26px;
     font-weight: 400;
     margin: 0 0 15px 0;
-    color: #f4911e;
+    color: #B41A89;
 }
 
-.row .col-md-4 h2 {
+.row .col-md-6 h2 {
     text-align: left;
-    font-family: "Courier";
+    font-family: "Olive";
     font-size: 20px;
     font-weight: 400;
     margin: 0 0 5px 0;
     padding: 0 20px;
 }
 
-.row .col-md-4 p {
+.row .col-md-6 p {
     color: rgb(129, 129, 129);
     text-align: left;
-    font-family: "Courier";
+    font-family: "Olive";
     font-size: 14px;
     font-weight: 400;
+    margin: 0 0 15px 0;
+    padding: 0 20px;
+}
+
+.row .col-md-6 ul {
+    color: rgb(129, 129, 129);
+    text-align: left;
+    font-family: "Olive";
+    font-size: 14px;
+    font-weight: bold;
     margin: 0 0 15px 0;
     padding: 0 20px;
 }
@@ -283,7 +312,11 @@ div.btn:hover {
     border: hidden;
 }
 
-#info-3 {
+#info-2 {
+    float: right;
+}
+
+#info-4 {
     float: right;
 }
 
