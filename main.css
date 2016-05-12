@@ -135,6 +135,9 @@ a:hover {
     display: block;
     }
 
+.pointer {
+    cursor: pointer;
+}
 .header-container .logo .main-social {
     margin-right: 0;
     float: right;
