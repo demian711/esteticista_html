@@ -374,3 +374,15 @@ div.btn:hover {
 }
 
 /* END NAV-BAR */
+
+.datos {
+    font-family: "Olive";
+    font-size: 26px;
+    font-weight: 400;
+    margin: 100px 0 110px 0;
+    color: #B41A89;
+}
+
+.datos .social a {
+margin: 20px 10px 0 0;
+}
