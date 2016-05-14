@@ -163,6 +163,13 @@ a:hover {
 
 .footer img {
     margin-bottom: 5px;
+    position: relative;
+}
+
+.footer p {
+    position: relative;
+    margin-bottom: -70px;
+    padding-left: 33%;
 }
 /* ----- END FOOTER ----- */
 
@@ -219,7 +226,7 @@ div#index.main-row {
     margin-right: auto;
     margin-left: auto;
     padding: 30px 0 30px 0;
-    margin-bottom: 100px;
+    margin-bottom: 170px;
     /*border: solid;*/
 #   background-image: url(assets/background.jpg);
     border-radius: 10px;
@@ -266,7 +273,7 @@ div.btn:hover {
 
 .row {
     width: 1000px;
-    margin: 50px 0;
+    margin: 50px 0 120px 0;
     padding: 30px 0 0 0;
     /*border: solid;*/
  #   background-color: #efe8f3;
@@ -378,12 +385,17 @@ div.btn:hover {
 
 /* END NAV-BAR */
 
-.datos, .construccion {
+.datos, .construccion, .datos a {
     font-family: "Olive";
     font-size: 26px;
     font-weight: 400;
-    margin: 100px 0 110px 0;
+    margin: 100px 0 165px 0;
     color: #B41A89;
+}
+
+.datos a:hover {
+    color: blue;
+    text-decoration: underline;
 }
 
 .construccion h2 {
